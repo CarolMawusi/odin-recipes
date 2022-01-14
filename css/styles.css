@@ -1,0 +1,58 @@
+
+/*------------FIRSTPAGE----------*/
+.main-heading {
+   text-align: center;
+   font-size: 32px;
+   font-family: 'Courier New', Courier, monospace;
+   background-color: aqua;
+}
+
+ul.dishes{
+    text-align: center;
+    list-style-type: square;
+}
+
+a {
+    text-decoration: none;
+}
+
+.meal-name {
+    text-align: center;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:burlywood;
+}
+/*------------STROGANOFF----------*/
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+
+
+
+
+
+
+/*------------SCHNITZEL----------*/
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+
+
+
+
+/*------------BOLOGNESE----------*/
+
+
+img {
+    width: 500px;
+    height: auto;
+}
+
+
+
