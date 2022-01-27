@@ -1,43 +1,46 @@
-
-
 * {
-    font-family: 'Courier New', Courier, monospace;
-    margin: 0;
-    padding: 0;  
-}
-
-.heading {
-    text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 h1 {
-   display: inline-block;
-   padding: 20px;
-   font-size: 32px;
-   margin-top: 20px;
-   border: 2px solid rgba(12, 11, 11, 0);
-   border-radius:30px ;
-   background-color: rgba(255, 198, 42, 0.842);
+  width: 600px;
+  margin: 60px auto 10px;
+  padding: 20px;
+  font-size: 34px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #f7712a;
+  color: #fff;
 }
 
-
 .dishes li {
-    margin:20px;
-    text-align: center;
-    list-style: none;
+  text-align: center;
+  list-style: none;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #d78e66;
+}
+
+.container {
+  width: 400px;
+  margin: 40px auto;
+  border: 2px solid #d78e66;
+  border-radius: 5px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 img {
-    width: 500px;
-    height: auto;
+  width: 500px;
+  height: auto;
 }
 
 .foodie {
-    display: block;
-    margin: 20px auto;
+  display: block;
+  margin: 20px auto;
 }
-
