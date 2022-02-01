@@ -6,4 +6,4 @@ The website will consist of a main index page which will have links to a few rec
 
 **The purpose of this project is to practice HTML.**
 
-_This website will be revisited later to style it up with CSS._
+_Currently applying some basic styles and improving them as I learn new and better ways_
