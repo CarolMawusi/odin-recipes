@@ -16,6 +16,26 @@ h1 {
   color: #fff;
 }
 
+
+h3 {
+  width:300px;
+  margin: 30px auto;
+  text-align: center;
+  border: 2px solid #f7712a;
+  padding: 10px;
+  font-size: 28px;
+}
+
+
+
+p {
+ margin: 20px auto;
+ text-align: center;
+}
+
+
+
+
 .dishes li {
   text-align: center;
   list-style: none;
@@ -38,9 +58,15 @@ a {
 img {
   width: 500px;
   height: auto;
+  margin: 10px auto;
 }
 
 .foodie {
   display: block;
   margin: 20px auto;
 }
+
+.items-needed,.steps{
+  text-align: center;
+}
+
