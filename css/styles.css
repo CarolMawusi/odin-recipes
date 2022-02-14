@@ -1,78 +1,96 @@
-* {
-  font-family: "Courier New", Courier, monospace;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
 }
 
 h1 {
-  width: 600px;
-  margin: 60px auto 10px;
-  padding: 20px;
-  font-size: 34px;
-  text-align: center;
-  border-radius: 8px;
-  background-color: #f7712a;
-  color: #fff;
-}
-
-
-h3 {
-  width:300px;
-  margin: 30px auto;
-  text-align: center;
-  border: 2px solid #f7712a;
-  padding: 10px;
-  font-size: 28px;
-}
-
-
-
-p {
- margin: 20px auto;
- text-align: center;
-}
-
-
-.dishes li {
-  text-align: center;
-  list-style: none;
-  padding: 10px;
-  background-color: #fff;
-  border: 1px solid #d78e66;
+  display: inline-block;
+  color: #f93f23;
+  font-size: 36px;
+  font-weight: 800;
+  border-top: 1px dashed rgb(223, 155, 68);
+  border-bottom: 1px dashed rgb(233, 166, 79);
+  padding: 12px;
+  margin-top: 80px;
 }
 
 .container {
-  width: 400px;
-  margin: 40px auto;
-  border: 2px solid #d78e66;
-  border-radius: 5px;
+  display: flex;
+  gap: 80px;
+  padding: 80px;
 }
 
 a {
   text-decoration: none;
+  display: inline-block;
+  border: 1px solid #f93f23;
+  border-radius: 12px;
+  padding: 10px;
+  color: rgb(233, 166, 79);
+  margin-top: 30px;
+  font-size: 18px;
 }
 
 img {
-  width: 500px;
-  height: auto;
-  margin: 10px auto;
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+  margin-bottom: 30px;
 }
 
-.foodie {
-  display: block;
-  margin: 20px auto;
+.meal {
+  max-width: 800px;
 }
 
-.items-needed,.steps{
+.description {
+  font-size: 18px;
+}
+
+/* Recipes*/
+.meal-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  font-size: 20px;
+  display: inline-block;
+  border-bottom: 1px dashed rgb(233, 166, 79);
+  padding: 12px;
   text-align: center;
 }
 
+.meal-image {
+  width: 500px;
+  height: 300px;
+}
 
-.frame {
-  background-color:rgba(255, 174, 0, 0.934);
-  height:300px;
-  margin: 0 auto;
-  width: 600px;
+h3 {
+  color: #f93f23;
+  font-size: 22px;
+}
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+}
+
+em {
+  color: rgb(233, 166, 79);
+}
+
+.recipe-body {
+  display:flex;
+  flex-wrap: wrap;
+  padding:28px;
+  justify-content: space-around;
+}
+
+.steps {
+  width: 500px;
 }
