@@ -9,4 +9,4 @@ The website will consist of a main index page which will have links to a few rec
 ## Credits
 - www.gimmesomeoven.com
 - www.simplyrecipes.com
-- foodnetwork.com
+- www.foodnetwork.com
